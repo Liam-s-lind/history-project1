@@ -1,0 +1,12 @@
+/* Colors */
+:root {
+    --primary-color: #1D3461;
+    --secondary-color: #6290C8;
+    --primary-hover-color: #829CBC;
+    --primary-text-color: #fff;
+    --secondary-text-color: #333;
+
+    --temporary-color: #6290C8;
+    --temporary-color-2: #1F487E;
+}
+
