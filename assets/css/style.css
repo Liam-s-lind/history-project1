@@ -5,7 +5,7 @@
     --primary-hover-color: #829CBC;
     --primary-text-color: #fff;
     --secondary-text-color: #333;
-  }
+}
 
 
 /* Reset some default styles */
@@ -76,14 +76,17 @@ footer {
     background-color: var(--primary-color);
     color: var(--primary-text-color);
     text-align: center;
-    padding: 11px 0;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Footer link */
 footer a {
     color: var(--primary-text-color);
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 1rem;
 }
 
 footer li {
@@ -92,4 +95,27 @@ footer li {
 
 footer li:hover {
     opacity: 0.2;
+}
+
+/* Social media styling/icons */
+#social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-media a {
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#social-media a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
 }
