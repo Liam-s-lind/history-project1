@@ -34,6 +34,33 @@ header h1 {
     padding: 0;
 }
 
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation links */
+}
+
+/* Navigation item */
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation link */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px; /* Increase padding for touch targets */
+    transition: background-color 0.3s;
+}
+
+/* Navigation link hover effect */
+nav a:hover {
+    background-color: #555;
+}
+
 
 footer {
     background-color: #1a1a1a;
