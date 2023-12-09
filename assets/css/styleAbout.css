@@ -74,12 +74,45 @@ nav a:hover {
     background-color: var(--primary-hover-color);
 }
 
+/* main and paragraph style */
+main {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+#section {
+    background: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#section h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+#section p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+#section hr {
+    border: 0;
+    height: 1px;
+    background-color: #333;
+    margin: 20px 0;
+}
+
 
 footer {
     background-color: var(--primary-color);
     color: var(--primary-text-color);
     text-align: center;
     padding: 1rem 0;
+    position: fixed; /* temporary */
     bottom: 0;
     width: 100%;
 }
