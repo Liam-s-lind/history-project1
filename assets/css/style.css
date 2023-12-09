@@ -121,6 +121,41 @@ footer li:hover {
     opacity: 0.2;
 }
 
+#menu-toggle {
+    display: none;
+}
+
+#menu-toggle-label {
+    display: none;
+    cursor: pointer;
+    padding: 1rem 1.2rem;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+/* Style the mobile dropdown */
+#menu-toggle:checked + #menu-toggle-label + nav ul {
+    display: block;
+    position: absolute;
+    top: 60px;
+    right: 1rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#menu-toggle:checked + #menu-toggle-label + nav ul li {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+
+#menu-toggle:checked + #menu-toggle-label + nav ul a {
+    display: block;
+    width: 100%;
+}
+
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     
@@ -128,5 +163,25 @@ footer li:hover {
 
 /* Mobile */
 @media screen and (max-width: 767px) {
-    
+    .headlogo {
+        font-size: 1rem;
+    }
+
+    #menu-toggle-label {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav li {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav a {
+        width: 100%;
+    }
 }
