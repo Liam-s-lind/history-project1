@@ -1,0 +1,75 @@
+/* Colors */
+:root {
+    --primary-color: #1D3461;
+    --secondary-color: #6290C8;
+    --primary-hover-color: #829CBC;
+    --primary-text-color: #fff;
+    --secondary-text-color: #333;
+
+    --temporary-color: #6290C8;
+    --temporary-color-2: #1F487E;
+}
+
+main {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+section {
+    background: var(--primary-text-color);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+section a {
+    color: var(--secondary-text-color);
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+.video-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    main {
+        padding: 10px;
+    }
+
+    .video-container iframe {
+        width: 100%;
+    }
+    
+}
