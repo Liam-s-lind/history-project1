@@ -74,32 +74,6 @@ nav a:hover {
     background-color: var(--primary-hover-color);
 }
 
-
-footer {
-    background-color: var(--primary-color);
-    color: var(--primary-text-color);
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Footer link */
-footer a {
-    color: var(--primary-text-color);
-    text-decoration: none;
-    margin: 0 1rem;
-}
-
-footer li {
-    list-style-type: none; 
-}
-
-footer li:hover {
-    opacity: 0.2;
-}
-
 /* Social media styling/icons */
 #social-media {
     list-style: none;
@@ -173,4 +147,30 @@ main {
         flex-direction: column;
         align-items: center;
     }
+}
+
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer link */
+footer a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+footer li {
+    list-style-type: none; 
+}
+
+footer li:hover {
+    opacity: 0.2;
 }
