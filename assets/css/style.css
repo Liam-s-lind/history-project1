@@ -98,12 +98,12 @@ nav a:hover {
 }
 
 footer {
+    bottom: 0;
+    width: 100%;
     background-color: var(--primary-color);
     color: var(--primary-text-color);
     text-align: center;
     padding: 1rem 0;
-    bottom: 0;
-    width: 100%;
 }
 
 /* Footer link */
@@ -138,7 +138,7 @@ footer li:hover {
     display: block;
     position: absolute;
     top: 60px;
-    right: 1rem;
+    right: 0;
     width: 100%;
     background-color: var(--primary-color);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -164,7 +164,7 @@ footer li:hover {
 /* Mobile */
 @media screen and (max-width: 767px) {
     .headlogo {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     #menu-toggle-label {
