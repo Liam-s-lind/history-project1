@@ -10,93 +10,6 @@
     --temporary-color-2: #1F487E;
 }
 
-
-/* Reset some default styles */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-}
-
-/* Basic styling */
-body {
-    font-family: Arial, sans-serif;
-    background-color: var(--secondary-color);
-    color: var(--secondary-text-color);
-    line-height: 1.6;
-}
-
-.headlogo{
-    margin-left: 1.5rem;
-}
-
-/* Header styling */
-header {
-    background-color: var(--primary-color);
-    color: var(--primary-text-color);
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-}
-
-/* Header title */
-header h1 {
-    font-size: 2.5rem;
-    margin: 0;
-    padding: 0;
-}
-
-/* Navigation styling */
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center; /* Center the navigation links */
-}
-
-/* Navigation item */
-nav li {
-    margin: 0;
-    padding: 0;
-}
-
-/* Navigation link */
-nav a {
-    text-decoration: none;
-    color: var(--primary-text-color);
-    padding: 10px 20px; /* Increase padding for touch targets */
-    transition: background-color 0.3s;
-}
-
-/* Navigation link hover effect */
-nav a:hover {
-    background-color: var(--primary-hover-color);
-}
-
-/* Social media styling/icons */
-#social-media {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#social-media a {
-    text-decoration: none;
-    color: var(--primary-text-color);
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-}
-
-#social-media a img {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-}
-
 /* Style main and images */
 main {
     font-family: 'Arial', sans-serif;
@@ -142,34 +55,15 @@ main {
     font-weight: bold;
 }
 
-@media screen and (max-width: 600px) {
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
     #photos {
         flex-direction: column;
         align-items: center;
     }
-}
-
-
-footer {
-    background-color: var(--primary-color);
-    color: var(--primary-text-color);
-    text-align: center;
-    padding: 1rem 0;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Footer link */
-footer a {
-    color: var(--primary-text-color);
-    text-decoration: none;
-    margin: 0 1rem;
-}
-
-footer li {
-    list-style-type: none; 
-}
-
-footer li:hover {
-    opacity: 0.2;
 }
