@@ -68,6 +68,6 @@ I acknowledge and take full responsibility that this is my own work, and what I 
 
 ## Credits
 - video used is taken from Youtube "https://www.youtube.com/watch?v=RVJVNw1CrCY"
-- Author: Dr. Zar
-- Editor and Narrator: Dr. Zar
+ Author: Dr. Zar
+ Editor and Narrator: Dr. Zar
 - also i should refere “Historical Evidence” section of the article on their main site on which this video is based. "https://www.historyandheadlines.com/stockholm-bloodbath/"
