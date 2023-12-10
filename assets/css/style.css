@@ -10,6 +10,10 @@
     --temporary-color-2: #1F487E;
 }
 
+html {
+    height: 100%;
+}
+
 
 /* Reset some default styles */
 body, h1, h2, p {
@@ -23,6 +27,11 @@ body {
     background-color: var(--secondary-color);
     color: var(--secondary-text-color);
     line-height: 1.6;
+
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .headlogo{
@@ -98,7 +107,7 @@ nav a:hover {
 }
 
 footer {
-    position: relative;
+    margin-top: auto;
     bottom: 0;
     width: 100%;
     background-color: var(--primary-color);
@@ -183,6 +192,11 @@ footer li:hover {
     }
 
     nav a {
+        width: 100%;
+    }
+
+    body {
+        height: 100%;
         width: 100%;
     }
 }

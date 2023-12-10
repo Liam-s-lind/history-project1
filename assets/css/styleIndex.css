@@ -30,9 +30,7 @@ main a[href="stockholmsBloodBath.html"]:hover {
     color: var(--primary-text-color); /* White text on hover */
 }
 
-footer {
-    position: absolute;
-}
+
 
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
