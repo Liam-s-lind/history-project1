@@ -58,7 +58,7 @@ Navigate the site using the top menu:
 - **Interactive Gallery**: Engage with high-definition historical imagery.
 >![Interactive Gallery](assets/read.images/gallery.png)
 - **Rich Historical Content**: Detailed accounts backed by credible sources.
-- **Membership Functionality**: Easy sign-up for interactive user participation.
+- **Membership Functionality**: Easy sign-up for interactive user participation, needs funktion to work.
   ![Color Scheme](assets/read.images/signUp1.png)
   - **Footer**: Follow us on social media
     ![Header Navigation](assets/read.images/footer.png)
