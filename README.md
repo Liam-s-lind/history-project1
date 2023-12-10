@@ -5,7 +5,7 @@ Web History is a comprehensive website dedicated to presenting historical events
 
 ## Table of Contents
 - [Installation](#installation)
-- [Information](#information)
+- [Issues](#issues)
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
@@ -17,9 +17,11 @@ To install the website on your local machine, follow these steps:
 2. Navigate to the project directory.
 3. Open the `index.html` file in a web browser.
 
-## Information
+## Issues
 The Problems i sumbled across
-1. it happend to be so that before i had moltiple css for the different pages it didn't respond well
+1. it happend to be so that before i had moltiple css for the different pages it didn't respond well.
+2. validation W3C shows this message that i could not resolv -> Error: A charset attribute on a meta element found after the first 1024 bytes.
+At line 650, column 21.  charset="utf-8"><link rel="ic
 
 ## Usage
 Use the navigation bar at the top to navigate between different pages:
