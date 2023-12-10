@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     background-color: var(--primary-color);
@@ -130,7 +130,7 @@ footer li:hover {
     display: none;
     cursor: pointer;
     padding: 1rem 1.2rem;
-    color: white;
+    color: var(--primary-text-color);
     background-color: var(--primary-color);
 }
 
