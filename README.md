@@ -1,7 +1,7 @@
 # Web History
 
 ## Description
-Web History is a comprehensive website dedicated to presenting historical events with a focus on accuracy and engaging storytelling. Our site features detailed accounts of key events in history, a rich gallery of historical images, and informative videos.
+Web History offers a dynamic exploration of historical events, blending accuracy with immersive storytelling. Our platform enriches your understanding of the past through meticulously detailed narratives, a curated gallery of historical images, and engaging educational videos.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -27,6 +27,9 @@ Challenges Encountered:
 3. **Design Consistency**: The navigation bar experiences alignment issues on smaller screens.
    - ![Navigation Issue](assets/read.images/issueNav.png)
    - ![Navigation Issue Continued](assets/read.images/issueNav2.png)
+4. **Links In Text**: The links in the text are invisable unless you hover the mouse over the word
+    - ![Navigation Issue Continued](assets/read.images/nounderscore.png)
+    - ![Navigation Issue Continued](assets/read.images/underscore.png)
 
 ## Validation
 - CSS validation is successful across all pages.
@@ -52,10 +55,12 @@ Navigate the site using the top menu:
   ![Color Scheme](assets/read.images/signUp1.png)
 
 ## Contributing
-We welcome contributions to the Web History project. If you have suggestions or want to contribute, please fork the repository and create a pull request.
+Your insights and contributions are valuable to us! To contribute:
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin feature-branch`
+5. Submit a pull request.
 
 ## Acknowledgments
-Special thanks to contributors and historians who helped in creating content for this website.
-
----
-© 2023 Web History. All rights reserved.
+I acknowledge and take full responsibility that this is my own work, and what I borrowed from other repositories is written down as comments in the code.
