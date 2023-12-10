@@ -10,6 +10,7 @@
     --temporary-color-2: #1F487E;
 }
 
+/* Main container styling */
 main {
     font-family: 'Arial', sans-serif;
     max-width: 800px;
@@ -17,6 +18,7 @@ main {
     padding: 20px;
 }
 
+/* General styling for all sections */
 section {
     background: var(--primary-text-color);
     padding: 15px;
@@ -25,31 +27,37 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling for section headers */
 section h2 {
     font-size: 1.4em;
     margin-bottom: 10px;
 }
 
+/* Styling for paragraphs within sections */
 section p {
     font-size: 1em;
     line-height: 1.6;
     margin-bottom: 10px;
 }
 
+/* Styling for links within sections */
 section a {
     color: var(--secondary-text-color);
     text-decoration: none;
 }
 
+/* Hover effect for links */
 section a:hover {
     text-decoration: underline;
 }
 
+/* Container for videos */
 .video-container {
     text-align: center;
     margin-bottom: 20px;
 }
 
+/* Styling for iframes (videos) within the video container */
 .video-container iframe {
     max-width: 100%;
     height: auto;
