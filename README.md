@@ -18,18 +18,20 @@ To install the website on your local machine, follow these steps:
 3. Open the `index.html` file in a web browser.
 
 ## Issues
-The Problems i sumbled across
-1. it happend to be so that before i had moltiple css for the different pages it didn't respond well.
-2. validation W3C shows this message that i could not resolv -> Error: A charset attribute on a meta element found after the first 1024 bytes.
-At line 650, column 21.  charset="utf-8"><link rel="ic
-> ![Alt text for image1](assets/read.images/issue.png)
-- So the problem is in Member.html, if removing line 33 "section" and everything in it, all the way to line 67 it passes the validation.
-- I did not remove because it looks better when its there until i can fix it.
+Challenges Encountered:
+1. **CSS Responsiveness**: Initially, multiple CSS files led to small inconsistent responsiveness across different pages.
+2. **HTML Validation**: Encountered a W3C validation error related to the `charset` attribute placement.
+   - Error: "A charset attribute on a meta element found after the first 1024 bytes."
+   - Context: The error occurs in `Member.html`. Removing content from lines 33 to 67 resolves the issue, but this section is retained for aesthetic appeal until a solution is found.
+   - ![Charset Issue](assets/read.images/issue.png)
+3. **Design Consistency**: The navigation bar experiences alignment issues on smaller screens.
+   - ![Navigation Issue](assets/read.images/issueNav.png)
+   - ![Navigation Issue Continued](assets/read.images/issueNav2.png)
 
 ## Validation
-- it passes css validation on all pages.
-> ![Alt text for image1](assets/read.images/Validation.png)
-- it will pass html validator W3C if remooving from line 33 to 67 in member.html.
+- CSS validation is successful across all pages.
+ - ![Css Validation](assets/read.images/Validation.png)
+- HTML validation passes with the suggested modification in `Member.html`.
 
 ## Usage
 Use the navigation bar at the top to navigate between different pages:
