@@ -10,7 +10,6 @@ Web History is a comprehensive website dedicated to presenting historical events
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 To install the website on your local machine, follow these steps:
@@ -23,14 +22,18 @@ The Problems i sumbled across
 1. it happend to be so that before i had moltiple css for the different pages it didn't respond well.
 2. validation W3C shows this message that i could not resolv -> Error: A charset attribute on a meta element found after the first 1024 bytes.
 At line 650, column 21.  charset="utf-8"><link rel="ic
+> ![Alt text for image1](assets/read.images/issue.png)
+- So the problem is in Member.html, if removing line 33 "section" and everything in it, all the way to line 67 it passes the validation.
+- I did not remove because it looks better when its there until i can fix it.
 
 ## Validation
-- So the problem is in Member.html, if removing line 33 section and everything in it to line 67 it passes the validation.
-- I do not remove because it looks better when its there
-- it passes css validation on all pages. ![Alt text for image1](assets/read.images/Validation.png)
+- it passes css validation on all pages.
+> ![Alt text for image1](assets/read.images/Validation.png)
+- it will pass html validator W3C if remooving from line 33 to 67 in member.html.
 
 ## Usage
 Use the navigation bar at the top to navigate between different pages:
+![Alt text for image1](assets/read.images/header.png)
 - **Home**: Main landing page with links for History
 - **Gallery**: View historical images and artifacts.
 - **About**: Learn more about the project and its goals.
@@ -38,7 +41,10 @@ Use the navigation bar at the top to navigate between different pages:
 
 ## Features
 - Responsive design that adapts to different device screens.
+- nice colors that match together
+> ![Alt text for image1](assets/read.images/color.png)
 - Interactive gallery with high-quality images.
+> ![Alt text for image1](assets/read.images/gallery.png)
 - Detailed historical accounts with references to credible sources.
 - Member sign-up functionality.
 
