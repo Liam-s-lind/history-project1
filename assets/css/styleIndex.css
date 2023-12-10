@@ -10,8 +10,28 @@
     --temporary-color-2: #1F487E;
 }
 
-main {
-    min-height: 56vh;
+
+main a[href="stockholmsBloodBath.html"] {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid var(--secondary-text-color);
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+main a[href="stockholmsBloodBath.html"]:hover {
+    background-color: var(--secondary-color); /* Blue background on hover */
+    color: var(--primary-text-color); /* White text on hover */
+}
+
+footer {
+    position: absolute;
 }
 
 /* Tablets */

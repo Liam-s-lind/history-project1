@@ -27,6 +27,7 @@ At line 650, column 21.  charset="utf-8"><link rel="ic
 ## Validation
 - So the problem is in Member.html, if removing line 33 section and everything in it to line 67 it passes the validation.
 - I do not remove because it looks better when its there
+- it passes css validation on all pages. ![Alt text for image1](assets/read.images/Validation.png)
 
 ## Usage
 Use the navigation bar at the top to navigate between different pages:
