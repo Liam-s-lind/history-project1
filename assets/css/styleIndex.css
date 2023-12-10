@@ -10,7 +10,7 @@
     --temporary-color-2: #1F487E;
 }
 
-
+/* Styling for specific link 'Stockholm Bloodbath' in the main element */
 main a[href="stockholmsBloodBath.html"] {
     display: inline-block;
     padding: 10px 20px;
@@ -25,6 +25,7 @@ main a[href="stockholmsBloodBath.html"] {
     transition: background-color 0.3s, color 0.3s;
 }
 
+/* Hover effect for the specific link */
 main a[href="stockholmsBloodBath.html"]:hover {
     background-color: var(--secondary-color); /* Blue background on hover */
     color: var(--primary-text-color); /* White text on hover */
