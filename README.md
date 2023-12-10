@@ -10,6 +10,7 @@ Web History offers a dynamic exploration of historical events, blending accuracy
 - [Usage](#usage)
 - [Features](#features)
 - [Contributing](#contributing)
+- [Credits](#credits)
 
 ## Installation
 To install the website on your local machine, follow these steps:
@@ -64,3 +65,9 @@ Your insights and contributions are valuable to us! To contribute:
 
 ## Acknowledgments
 I acknowledge and take full responsibility that this is my own work, and what I borrowed from other repositories is written down as comments in the code.
+
+## Credits
+- video used is taken from Youtube "https://www.youtube.com/watch?v=RVJVNw1CrCY"
+- Author: Dr. Zar
+- Editor and Narrator: Dr. Zar
+- also i should refere “Historical Evidence” section of the article on their main site on which this video is based. "https://www.historyandheadlines.com/stockholm-bloodbath/"
